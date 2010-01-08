@@ -1,0 +1,61 @@
+Consulta 1:
+<A definição já foi feita pela professora>
+
+Consulta 2: 
+a partir de um CPF de um determinado empregado, busca seu nome, endereço, salário, turno em que trabalha,
+em que tipos de aviões este empregado pode trabalhar, em também quais problemas que tal
+empregado já pode participar da resolução.
+Consideramos esta consulta para a implementação, já que uma das principais consultas
+feitas em empresas está relacionada aos empregados.
+
+Consulta 3:
+Considere a seguinte situação:
+Um avião está voando e é informado de que o aeroporto destino, em que aterrissaria,
+está bloqueado por algum motivo. Este avião precisa escolher um outro aeroporto para
+pousar, de preferência próximo a ele. Então faz-se uma busca por quais aeroportos
+suportam aquele tipo de avião, e também a localização de tais aeroportos.
+Esta consulta é definida exatamente para isso, ela exibe os aeroportos em que um determinado
+avião pode pousar bem como os nomes e localizações, além dos códigos.
+
+
+Cadastro 1:
+Inserção de vôos.
+
+Cadastro 2:
+Reserva de poltronas.
+
+
+
+== Recursos Extras ==
+Cadastro 1:
+Inserção de tipos de aviões.
+
+Cadastro 2:
+Inserção de Pilotos. ------------com erros =\
+
+Cadastro 3:
+Inserção de Empregados.
+
+Tela de Login:
+Criamos uma tela de login para que possamos conectar ao sistema utilizando usuários diferentes.
+Se o usuário digitar o nome de usuário ou a senha incorretamente uma mensagem para que os
+dados fornecidos sejam verificados é exibida. Após a conexão com o banco de dados a partir
+desta tela de login, a mesma é fechada automaticamente.
+
+
+
+
+
+
+Consultas:
+1. Todos os vôos de São Paulo para o Rio de Janeiro, na classe econômica,
+ no dia 24 de agosto de 2010, saindo entre 8:00am e 12:00am.  Responsável: Douglas.
+ 
+3. Poltronas disponíveis em um determinado vôo(complemento para a consulta 1).
+
+4. O avião X pode aterrissar em quais aeroportos?
+
+
+Cadastros:
+3. cadastrar piloto;  ocorre alguma falha mas ele ainda insere dados no banco mesmo falhando
+4.

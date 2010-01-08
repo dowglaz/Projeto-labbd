@@ -1,0 +1,171 @@
+IDE Utilizada: 
+NetBeans IDE 6.7.1 (Build 200907230233)
+
+Linguagem e máquina vitual:
+Java: 1.6.0_16; Java HotSpot(TM) Client VM 14.2-b01
+JDK 6
+
+Sistema Operacional:
+Windows 7 versão 6.1 executando em x86; Cp1252; pt_BR (nb)
+
+Ferramenta para manipulação de PL/SQL:
+Oracle IDE	1.5.5.59.69
+Plataforma Java(TM)	1.5.0_06
+
+Sistema gerenciador de banco de dados utilizado:
+Oracle Database 10g Express Edition
+
+Para a integração do sistema com a base de dados utilizamos:
+JDBC Driver: ojdbc14.jar, que pode ser encontrado no link:
+http://www.oracle.com/technology/software/tech/java/sqlj_jdbc/htdocs/jdbc_10201.html
+
+
+--------------
+Na classe Login.java há:
+-  A conexão com o banco de dados.
+Neste arquivo estão todos os códigos necessários para se fazer
+a conexão com o banco de dados.
+
+
+Na classe MainWindow.java utilizamos:
+É a classe que contei a interface gráfica principal. A partir desta interface
+acessamos as outras janelas de consultas e cadastros. Ela é criada após o login.
+Se o login não for efetuado ela não é exibida, nem criada.
+
+
+Na classe ConsultaAeroportosParaAterrissar.java utilizamos:
+- PackAeroportos.aeroportosParaAterrissar();
+- PackAvioes.selecionaAvioes();
+- Consulta SQL para selecionar tipo_aviao de aviões com um id_aviao.
+Esta classe contém a janela de consulta para encontrar os aeroportos permitidos
+a um determinado avião aterrissar.
+
+
+Na classe ConsultaEmpregado.java utilizamos: 
+- PackPessoa.consultarEmpregado();
+- PackPessoa.getTiposAviaoPodeTrabalharEmp();
+- PackPessoa.getProblemasTrabalhadosEmp();
+Esta classe contém a janela de consulta que retorna informações sobre empregados.
+
+
+Na classe EmpregadoFrame.java utilizamos:
+- PackPessoa.insere_pessoa();
+Neste arquivo está a janela de inserção de empregados.
+
+
+Na classe PilotoFrame.java utilizamos:
+- PackPessoa.insere_pessoa().
+Neste arquivo está a janela de inserção de pilotos.
+
+
+Na classe TipoAviaoFrame.java utilizamos:
+- Inserção usando SQL.
+Neste arquivo está a janela de inserção de tipos de aviões.
+
+
+Na classe AviaoFrame.java utilizamos:
+- Consulta SQL;
+- Inserção em SQL.
+Neste arquivo está a janela de inserção de aviões. Nesta janela
+há um menu para escolher um tipo de avião para este novo avião
+a ser inserido, bem como um botão para a criação de um novo tipo
+de avião. Com a inserção do novo tipo, o usuário atualiza a lista de
+tipos e pode escolher, então, o tipo recem feito.
+
+
+Na classe AeroportoFrame.java utilizamos:
+- Inserção em SQL.
+Neste arquivo está a janela de inserção de aeroportos. Nela o usuário
+digita as informações do aeroporto e seleciona um dos estados(brasileiros)
+e então insere o aeroporto ao banco de dados.
+
+
+Na classe AtualizaEmpregado.java utilizamos:
+- PackPessoa.getPessoas();
+Neste arquivo está a janela de alteração de cadastros de Empregados.
+Na verdade esta janela apenas exibe os empregados existentes para serem selecionados
+e então alterados.
+Eles podem ser alterados para outro tipo, como PILOTO.
+
+
+Na classe AtualizaPiloto.java utilizamos:
+- PackPessoa.getPessoas();
+Neste arquivo está a janela de alteração de cadastros de Pilotos.
+Na verdade esta janela apenas exibe os pilotos existentes para serem selecionados
+e então alterados.
+Eles podem ser alterados para outro tipo, como EMPREGADO.
+
+
+Na classe EditarCadastroEmpregado.java utilizamos:
+- PackPessoa.altualizaPessoa();
+Neste arquivo está a janela que é aberta por meio da outra janela que está no arquivo
+AtualizaEmpregado.java. Essa sim é a janela de atualização de cadastro.
+É nela que o usuário poderá alterar os dados de um cadastro, mesmo sendo
+o campo de tipo de pessoa, o usuário poderá alterar.
+
+
+
+Na classe EditarCadastroPiloto.java utilizamos:
+- PackPessoa.altualizaPessoa();
+Neste arquivo está a janela que é aberta por meio da outra janela que está no arquivo
+AtualizaPiloto.java. Essa sim é a janela de atualização de cadastro.
+É nela que o usuário poderá alterar os dados de um cadastro, mesmo sendo
+o campo de tipo de pessoa, o usuário poderá alterar.
+
+
+Na classe removerEmpregado.java utilizamos:
+- PackPessoa.removePessoa()
+- PackPessoa.getPessoas()
+Neste arquivo está uma janela que lista os empregados cadastrados no banco de dados
+e possibilita que selecione um para removê-lo. Além de remover dados
+da tabela pessoa, remove da tabela empregado e da tabela pode_trabalhar.
+Não é removido da tabela serviço, pois seguimos a semântica do modelo
+entidade-relacionamento do projeto.
+
+
+Na classe removerPilotojava utilizamos:
+- PackPessoa.removePessoa()
+- PackPessoa.getPessoas()
+Neste arquivo está uma janela que lista os pilotos cadastrados no banco de dados
+e possibilita que selecione um para removê-lo. Além de remover dados
+da tabela pessoa, remove da tabela piloto e da tabela voa.
+
+
+
+
+
+Na classe VooFrame.java utilizamos:
+- 
+Na classe VoosDataTabela.java utilizamos:
+Na classe VoosDatasFramme.java utilizamos:
+
+Na classe utilizamos:
+Na classe utilizamos:
+Na classe utilizamos:
+Na classe utilizamos:
+Na classe utilizamos:
+Na classe utilizamos:
+
+
+Comentário:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

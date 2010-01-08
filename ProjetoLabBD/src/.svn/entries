@@ -1,0 +1,77 @@
+10
+
+dir
+91
+https://svn.kenai.com/svn/projetolabbd~subversion/ProjetoLabBD/src
+https://svn.kenai.com/svn/projetolabbd~subversion
+
+
+
+2009-12-15T01:02:55.715779Z
+91
+enryh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+daaed6bb-0024-e5e1-ac54-dcd9028f18dd
+
+model_projetofinallabbd
+dir
+
+ojdbc14.jar
+file
+
+
+
+
+2009-12-04T02:47:14.000000Z
+9e8d485e0a0d029a7d6a717291c239c6
+2009-12-03T15:05:59.267834Z
+2
+enryh
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1555682
+
+BD
+dir
+
+arquivos_SQL
+dir
+
+controler_projetofinallabbd
+dir
+
+view_projetofinallabbd
+dir
+
